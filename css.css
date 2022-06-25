@@ -1,21 +1,32 @@
-h1{
-color: rgb(255, 255, 255);
-font-size: 80px;  /*размер текста*/
-margin-top: 300px; /*верхний отступ*/
+/* Подключил шрифт в проект */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px; /*размер текста*/
+    margin-top: 300px; /*верхний отступ*/
 }
 
-h2{
-    font-weight: 700; /*жирность*/
+h2 {
+    font-weight: 700; /* жирность */
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    
+
 }
 
-p{
+p {
     font-size: 18px;
 }
+
+.col-9 p {
+    font-family: Mukta; /* применил подключенный шрифт к проекту */
+    font-size: 40px;
+}
+
 
 #header {
     height: 800px; /*высота*/
@@ -29,23 +40,13 @@ p{
 }
 
 
-/* #content p{
-    margin-top: 50px;
-} */
-
-#imeg img{
+#imeg img {
     float: right; /*выравнивание изображения справа*/
     margin-top: 50px;
     height: 300px;
 }
 
-#triBlosk{
+#triBlosk {
     background-color: cornflowerblue;
 }
-
-
-/* #content h3{
-     
-    } */
-
 
